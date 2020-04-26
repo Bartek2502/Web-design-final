@@ -1,0 +1,156 @@
+body {
+    background-color: sandybrown;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: url(../images/Books.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:200px;
+    color:sandybrown;
+    border:1px solid blue;
+    
+}
+
+nav {
+    
+    background-color: brown;
+    padding: 5px
+}
+nav ul{
+    
+    text-align: center;
+    font-size: 1.2em;
+    padding: 15px;
+    margin: 5px;
+}
+nav ul li{
+    list-style-type: none;
+    background-color: saddlebrown;
+    display: inline;
+    padding: 20px;
+    margin: 50px;
+    border: solid 2px black;
+    border-radius: 10px;
+    
+        
+}
+nav ul li a{
+    color: black;
+    text-decoration: underline overline wavy sandybrown;
+}
+nav ul li:hover {
+    background-color: sandybrown;
+}
+#content{
+   float: left;
+    column-count: 4;
+    column-rule: 5px solid brown;
+    column-gap: 50px;
+    padding: 5em;
+        width: 60%;
+    margin-right: 15px;
+    border: 5px solid brown;
+    
+}
+#content2 {
+        float: left;
+    width: 99.35%;
+    margin-right: 15px;
+    border: 5px solid brown;
+}
+.owner {
+    float: left;
+    width: 50%;
+}
+#ownerPic {
+        width: 30%;
+    float: right;
+}
+
+#specialOffer {
+    float: left;
+    
+}
+#mainPic { 
+    width: 60%;
+    float: right;
+}
+
+#library {
+       float: left;
+    column-count: 6;
+    column-rule: 5px solid brown;
+    column-gap: 60px;
+    padding: 9em;
+        width: 80%;
+    margin-right: 15px;
+    border: 5px solid brown;
+    
+}
+
+
+aside {
+        border:5px solid yellow;
+    width: 18%;
+    float:right;
+}
+
+aside ul li a {
+    
+    color: blue;
+    text-decoration: none;
+    
+}
+aside ul li{
+    list-style-type: none;
+}
+#bigPic {
+    width: 70%;
+    float: left;
+}
+.col_detail{
+    float: left;
+    padding: 2px;
+}
+footer {
+    clear: both;
+    border: 1px solid orange;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: brown;
+    font-size: 1.2em;
+    text-align: center;
+    
+}
+.menu{
+        list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+ul#menu li{
+       list-style-type: none;
+    display: inline;
+    margin: 5px;   
+}
+
+
+
+
+
+
+
+
+
+
+
